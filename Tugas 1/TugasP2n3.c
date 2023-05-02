@@ -47,7 +47,7 @@ int main()
     int ChessBoard[8][8] = {};
     /*Mendeklarasikan array "ChessBoard" berukuran 8x8 guna mempresentasikan papan catur yang diinisialisai 
     dengan nilai 0 menggunakan kurung kurawal kosong*/
-    printf ("Masukkan : \n");
+    printf ("");
     scanf ("%i %i", &i, &j);
     /*Memberikan perintah kepada user untuk memberikan inputan yang akan ditampung pada variabel "i" dan "j".*/
     printf ("\n%i %i\n", i, j);
@@ -56,5 +56,5 @@ int main()
     /*Pemanggilan fungsi "KoboImaginaryChess" yang akan memproses inputan user yang
     sebelumnya ditampung di variabel "i" dan "j" dengan batas papan catur.*/
     return 0;
-    //Mengembalikan nilai 0.
+    //Mengembalikan nilai 0, program berakhir.
 }
